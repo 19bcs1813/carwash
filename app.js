@@ -1,7 +1,6 @@
 var express = require('express');
 var path  = require('path');
 var mongoose = require('mongoose');
-var config = require('./config/database');
 
 //connect to db
 mongoose.connect('mongodb://127.0.0.1:27017/carwash');
